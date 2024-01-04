@@ -40,6 +40,7 @@ Kaggle에 존재하는 게 데이터를 사용하여 게의 나이를 예측
 - VIF(Variance Inflation Factor) 계산을 통하여 분석 진행
 - VIF 값이 100이 넘는 값의 변수 제거
 - VIF 결과는 아래의 표와 같음
+
 | Variable | VIF |
 | ------ | -------- |
 | Length | 688.146252 |
