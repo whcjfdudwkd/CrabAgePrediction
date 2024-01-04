@@ -1,4 +1,4 @@
-![상관관계 히트맵](https://github.com/whcjfdudwkd/CrabAgePrediction/assets/70883264/84ea91d8-4207-4fe5-8498-7376f1bec1c5)# BreadcrumbsCrabAgePrediction
+
 딥러닝을 활용한 게의 나이 예측
 
 ## 🖥️ 프로젝트 소개
