@@ -22,12 +22,14 @@ Kaggle에 존재하는 게 데이터를 사용하여 게의 나이를 예측
 - 독립변수와 종속변수 or 독립변수간의 상관관계를 보기 위해 상관관계 분석 진행
 - 독립변수 대부분 강한 양의 상관관계를 보임
 - 독립변수와 종속변수도 약한 양의 상관관계를 보임
+- 
 ![상관관계 히트맵](https://github.com/whcjfdudwkd/CrabAgePrediction/assets/70883264/32d3ed04-0e3a-4490-a603-b9e4f899d909)
 
 #### 정규분포 분석
 - 종속변수의 정규분포를 확인하기 위하여 분석 진행
 - Shapiro-Wilk 검정을 통한 분석 결과 종속변수는 정규성을 따르지 않음
 - Q-Q 플롯(Quantile-Quantile plot)을 활용하여 시각적 정규성 확인
+- 
 ![Q-Q Plot 정규성 확인](https://github.com/whcjfdudwkd/CrabAgePrediction/assets/70883264/17688a19-6db0-4568-bc72-aecddaa6db04)
 
 #### 인과관계 분석
