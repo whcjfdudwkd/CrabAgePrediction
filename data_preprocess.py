@@ -71,6 +71,7 @@ if p_value > alpha:
 else:
     print("데이터는 정규 분포를 따르지 않습니다.")
 
+plt.clf()
 y_train_flattened = data['Age'].to_list()
 probplot(y_train_flattened, dist='norm', plot=plt)
 plt.title('Q-Q Plot')
@@ -130,3 +131,4 @@ fit = kbest.fit(X, y)
 selected_features = fit.get_support()
 print(fit.feature_names_in_)
 print(selected_features)
+
