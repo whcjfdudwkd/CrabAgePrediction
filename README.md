@@ -88,15 +88,15 @@ Kaggle에 존재하는 게 데이터를 사용하여 게의 나이를 예측
  - 모델은 학습데이터, 데이터 정규화, 콜백사용여부, epoch를 다르게 주어 학습
  - 각각의 내용은 아래와 같음
    1. 학습컬럼
-     · 분석컬럼 : 분석 후 선택한 독립변수(Height, Shucked Weight, Viscera Weight)
-     · 변수선택 알고리즘 : 변수선택 알고리즘에 의해 선택한 독립 변수(Length, Diameter, Height, Weight, Shell Weight)
+     <br>· 분석컬럼 : 분석 후 선택한 독립변수(Height, Shucked Weight, Viscera Weight)
+     <br>· 변수선택 알고리즘 : 변수선택 알고리즘에 의해 선택한 독립 변수(Length, Diameter, Height, Weight, Shell Weight)
    2. 데이터
-     · raw : 정규화를 안거친 데이터
-     · min-max : min-max 스케일링을 이용하여 데이터를 정규화한 데이터
+     <br>· raw : 정규화를 안거친 데이터
+     <br>· min-max : min-max 스케일링을 이용하여 데이터를 정규화한 데이터
    3. 콜백 여부
-     · 콜백 함수를 사용하여 val_loss가 5epoch 안에 감소하지 않으면 학습을 중단함
+     <br>· 콜백 함수를 사용하여 val_loss가 5epoch 안에 감소하지 않으면 학습을 중단함
    4. epoch
-     · 모델 학습에 사용한 epoch
+     <br>· 모델 학습에 사용한 epoch
 
 #### 평가
  - 모델의 평가 결과는 아래의 표와 같다
