@@ -81,6 +81,7 @@ Kaggle에 존재하는 게 데이터를 사용하여 게의 나이를 예측
 - 분석때와 마찬가지로 학습과 평가 데이터 분리 (8:2)
 - Random_state를 분석때와 같이 하여 분석때와 같은 데이터로 분리
 - 모델의 구성은 아래의 사진과 같음
+
 ![모델구성](https://github.com/whcjfdudwkd/CrabAgePrediction/assets/70883264/8b35031b-31e5-4919-8360-545d2b400ad3) 
 
 #### 모델 학습
